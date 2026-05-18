@@ -58,11 +58,13 @@ PakWheels functions as a versatile multi-category automobile repository. A stand
 
 **Replicated C++ Infrastructure Snippet:**
 
+
 <img width="780" height="805" alt="image" src="https://github.com/user-attachments/assets/6ec958fb-d609-4e05-a8d6-767f433fdca1" />
 
 
 **Architectural Reasoning & Justification:**
 The live website demands highly varied attribute handling depending on asset classifications (e.g., tracking a bike's starter style vs a car's transmission type). We address this by applying Runtime Polymorphism. By abstracting common fields into a base Vehicle pattern and executing pure virtual displayDetails() hooks, the system allows heterogeneous arrays to process individual specialized formatting pipelines cleanly without exposing downcasting vulnerabilities.
+
 
 
 ### Feature B: Role Partitioning & User Profiling
@@ -71,9 +73,12 @@ The live website demands highly varied attribute handling depending on asset cla
 
 **Live Website Interface Reference:**
 
+
 <img width="311" height="834" alt="image" src="https://github.com/user-attachments/assets/a5b2f02d-9f35-4b23-887a-4ec523d3072a" />
 
+
 **Replicated C++ Infrastructure Snippet:**
+
 
 <img width="456" height="630" alt="image" src="https://github.com/user-attachments/assets/fdf17c52-7fef-4e29-8f9f-ad976aaf504d" />
 
@@ -88,10 +93,13 @@ To capture the platform's multi-tier actor schema while enforcing code reuse, we
 
 **Live Website Interface Reference:**
 
+
 <img width="236" height="854" alt="image" src="https://github.com/user-attachments/assets/adf4d430-6904-456c-aca2-5c157bb247a3" />
 <img width="237" height="862" alt="image" src="https://github.com/user-attachments/assets/37756e17-4128-4d69-8b52-ed35bd8d34fd" />
 
+
 **Replicated C++ Infrastructure Snippet:**
+
 
 <img width="590" height="261" alt="image" src="https://github.com/user-attachments/assets/896889f1-fd97-446c-95d8-52eda980265f" />
 
@@ -104,6 +112,7 @@ We replicate PakWheels' responsive search behavior through Compile-Time Polymorp
 **Website Context:** When a buyer clicks the small heart icon or hits "Save Ad" on a specific car post, that particular item is instantly cataloged into their profile feed. This operation connects the specific listing information to the individual consumer's personal watchlist without duplicating the ad's main server footprint.
 
 **Replicated C++ Infrastructure Snippet:**
+
 
 <img width="506" height="189" alt="image" src="https://github.com/user-attachments/assets/87020874-6544-4ad6-b9e3-4e13143df7cf" />
 
